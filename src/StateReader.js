@@ -3,19 +3,20 @@ import { InitData, default as State } from './State'
 
 export default class StateReader extends BaseStateReader {
     constructor(input) {
-        super(typeof input === 'string' ? input : readline())
+        super(typeof input === 'string' ? input : readline)
     }
 
     readInitData() {
-        // let x = super.readInt()
-        // let ys = super.readInts()
+        //let size = this.readInt()
+        //let unitsPerPlayer = this.readInt()
         return new InitData()
     }
 
 
     readState(initData) {
-        // let x = super.readInt()
-        // let ys = super.readInts()
+        //let actionCount = this.readInt();
+        //...
+        this.flushInputToLog();
         return new State()
     }
 
