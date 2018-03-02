@@ -1,7 +1,8 @@
 export default class BaseStateReader {
     constructor(input) {
         this.lines = [];
-        return typeof input === 'string'
+
+        typeof input === 'string'
             ? this.initByStringInput(input)
             : this.initByFuncInput(input)
     }
