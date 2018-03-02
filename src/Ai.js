@@ -1,8 +1,7 @@
 export default class Ai {
     getNextMove(state, countdown) {
-        while (!countdown.isFinished()) {
-            // Think about state!
-        }
-        return "Command"
+        return state.roundType < 0
+            ? 'IRONMAN'
+            : 'ATTACK_NEAREST UNIT'
     }
 }
