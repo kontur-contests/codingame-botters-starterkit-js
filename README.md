@@ -15,7 +15,7 @@
 
 ### Установка
 
-Клонируйте репозиторий: `git clone https://github.com/skbkontur/codingame-botters-starterkit-cs.git`
+Клонируйте репозиторий: `git clone https://github.com/skbkontur/codingame-botters-starterkit-js.git`
 
 Установите зависимости: `npm install`
 
